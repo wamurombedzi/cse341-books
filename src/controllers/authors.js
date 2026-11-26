@@ -4,7 +4,7 @@ import {
   createAuthor as createAuthorFromDb,
   updateAuthor as updateAuthorFromDb,
   deleteAuthor as deleteAuthorFromDb,
- 
+
 } from '../models/authors.js';
 
 const getAllAuthors = async (req, res) => {
